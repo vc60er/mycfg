@@ -1,0 +1,17 @@
+let g:spf13_no_autochdir = 1
+let g:pymode_folding = 0
+set noautochdir
+let g:DisableAutoPHPFolding = 1
+
+
+
+" In your .vimrc.before.local file
+" list only the plugin groups you will use
+"if !exists('g:spf13_bundle_groups')
+let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'python', 'go', 'misc',]
+"endif
+
+" let g:solarized_termcolors=256
+
+let g:neocomplete#enable_at_startup = 1
+

@@ -1,0 +1,9 @@
+Plugin 'MattesGroeger/vim-bookmarks'
+Plugin 'tomasiser/vim-code-dark'
+Plugin 'dracula/vim', { 'name': 'dracula' }
+Plugin 'romainl/vim-qf'
+Plugin 'will133/vim-dirdiff'
+Plugin 'tanvirtin/monokai.nvim'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+
+
