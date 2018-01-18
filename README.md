@@ -1,0 +1,2 @@
+# mycfg
+my shell config
