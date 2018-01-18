@@ -1,0 +1,5 @@
+let g:spf13_no_autochdir = 1
+let g:pymode_folding = 0
+set noautochdir
+
+
