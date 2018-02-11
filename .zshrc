@@ -112,6 +112,9 @@ export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
 
 
+alias mycrash='cd /Users/chengning/Library/Logs/CrashReporter/MobileDevice'
+
+export PATH=$PATH:/Users/chengning/Desktop/webrtc_ios/depot_tools
 
 
 alias less='less -N -M -i'
@@ -126,6 +129,7 @@ export PATH=$PATH:$HOME/.vim/bundle/smartim/plugin
 
 
 
+#export JAVA_HOME='/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home'
 export JAVA_HOME=`/usr/libexec/java_home`
 export CLASSPATH=$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$JAVA_HOME/bin:$PATH
@@ -134,7 +138,7 @@ export PATH=$PATH:$HOME/sh/s3cmd-1.6.0.letv
 
 export GIT_SSH_COMMAND="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1"
 
-
+#export my_proxy=http://123.59.177.152:8888
 export my_proxy=http://127.0.0.1:55014
 alias proxy-on="export all_proxy=$my_proxy; export http_proxy=$my_proxy; export https_proxy=$my_proxy"
 alias proxy-off="unset all_proxy; unset http_proxy; unset https_proxy"
